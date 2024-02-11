@@ -1,10 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-import csv
+#import csv
 import pandas as pd
 
 # Base URL of the website to scrape
-base_url = "https://ceylontoday.lk/category/ceylon-today-sunday/news-ceylon-today-sunday/page/"
+base_url = "https://ceylontoday.lk/category/ceylon-today-sunday/news-ceylon-today-sunday/page/" #Ceylon Today – Sunday
 
 # Initialize an empty list to store article data
 articles_data = []
